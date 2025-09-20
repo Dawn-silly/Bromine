@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "config_reader.h": "c",
+        "host.h": "c",
+        "chat.h": "c",
+        "processthreadsapi.h": "c",
+        "client.h": "c",
+        "stdio.h": "c"
+    }
+}
