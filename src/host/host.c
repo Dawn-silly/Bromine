@@ -22,7 +22,7 @@ bool StartHosting()
     char client_ip[15];
     inet_ntop(AF_INET, &client_sa.sin_addr, client_ip, sizeof(client_ip));
 
-    printf("Connected with ip: %s, you can chat!\n", client_ip);
+    printf("Connected with ip: %s, you can chat!\n\n", client_ip);
     
     bool in_chat = true;
 

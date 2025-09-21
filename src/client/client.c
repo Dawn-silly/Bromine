@@ -16,7 +16,7 @@ bool StartClient()
 
     if (connect(host_sock, (struct sockaddr *)&host_sa, sizeof(host_sa)) == SOCKET_ERROR) return false;
 
-    printf("Connected with ip: %s, you can chat!\n", ip);
+    printf("Connected with ip: %s, you can chat!\n\n", ip);
 
     bool in_chat = true;
 
